@@ -5,8 +5,6 @@ void print (int n){
     cout<<n<<endl;
     print(n-1);
 }
-
-
 int main(){
    print(6);
 }
